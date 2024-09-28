@@ -1,0 +1,38 @@
+# See https://openmod.github.io/openmod-docs/devdoc/concepts/localization.html
+# You can delete this file if you do not need translations
+
+Deaths:
+  Default: "{Victim} has died"
+  GUN: &PlayerItemDeath "{Killer} has killed {Victim} with {Gun}"
+  MELEE: *PlayerItemDeath
+  PUNCH: "{Victim} has been punched to death by {Killer}"
+  ACID: &AcidDeath "{Victim} has disolved in acid"
+  SPIT: *AcidDeath
+  FOOD: "{Victim} has starved to death"
+  ARENA: "{Victim} has died to the arena"
+  BONES: "{Victim} has fallen to their death"
+  SHRED: "{Victim} was shreaded to death"
+  SPARK: "{Victim} has been electrocuted to death"
+  WATER: "{Victim} has dehydrated to death"
+  ANIMAL: &AnimalDeath "{Victim} has been mauled to death"
+  ZOMBIE: *AnimalDeath
+  BREATH: "{Victim} has asphyxiated to death"
+  CHARGE: &ExplodeDeath "{Victim} was exploded to death"
+  SPLASH: *ExplodeDeath
+  MISSILE: *ExplodeDeath
+  SENTRY: "{Victim} was shot by a sentry"
+  BOULDER: "{Victim} has been crushed to death"
+  BURNER: &BurnDeath "{Victim} has burnt to death"
+  BURNING: *BurnDeath
+  GRENADE: "{Victim} was blown up by a grenade"
+  SUICIDE: "{Victim} has killed themself"
+  VEHICLE: &VehicleDeath "{Victim} was ran over"
+  ROADKILL: *VehicleDeath
+  BLEEDING: "{Victim} has bled to death"
+  FREEZING: "{Victim} has froze to death"
+  LANDMINE: "{Victim} has stepped on a landmine"
+  INFECTION: "{Victim} has radiated to death"
+
+Connection:
+  Join: "{Player} has joined the server"
+  Leave: "{Player} has left the server"
