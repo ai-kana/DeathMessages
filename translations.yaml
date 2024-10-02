@@ -3,9 +3,9 @@
 
 Deaths:
   Default: "{Victim} has died"
-  GUN: &PlayerItemDeath "{Killer} has killed {Victim} with {Gun}"
+  GUN: &PlayerItemDeath "{Killer} [{Health} HP] has killed {Victim} with {Gun} from {Range} meters in {Location}"
   MELEE: *PlayerItemDeath
-  PUNCH: "{Victim} has been punched to death by {Killer}"
+  PUNCH: "{Killer} [{Health} HP] punched {Victim} to death in {Location}"
   ACID: &AcidDeath "{Victim} has disolved in acid"
   SPIT: *AcidDeath
   FOOD: "{Victim} has starved to death"
